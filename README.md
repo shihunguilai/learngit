@@ -1,6 +1,3 @@
 # learngit
-* auto-gen TOC:
-{:toc}
-##git
-fdjf
-##php
+
+- [安装](./git.md#1安装git)
