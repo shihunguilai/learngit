@@ -97,11 +97,9 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 
 ##5.远程仓库
 
-1.创建ssh key
-	`ssh-keygen -t rsa -C "your email@xx.com"`
+1.创建ssh key	`ssh-keygen -t rsa -C "your email@xx.com"`
 2.把 ~/.ssh/id_rsa.puh 文件的内容 添加到 github 上面的 add ssh key
-3.测试是否 添加成功
-	`ssh -T git@github.com`
+3.测试是否 添加成功	`ssh -T git@github.com`
 
 
 
