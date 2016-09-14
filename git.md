@@ -101,6 +101,15 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 - 把 ~/.ssh/id_rsa.puh 文件的内容 添加到 github 上面的 add ssh key
 - 测试是否 添加成功	`ssh -T git@github.com`
 
+在github上建立learngit仓库
+关联本地仓库
+```shell
+git remote add  origin  git@github.com:shihunguilai/learngit.git
+git remote set-url origin git@github.com:shihunguilai/learngit.git
+git pull  origin master 
+git push  origin master
+
+```
 
 
 
