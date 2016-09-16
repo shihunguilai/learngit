@@ -115,3 +115,15 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 - 创建分支`git branch dev`
 - 切换分支`git checkout dev`
 - 创建并且切换分支`git checkout -b dev`
+
+
+
+
+## 8.创建git别名
+- git config --global alias.st status
+- git config --global alias.co checkout
+- git config --global alias.ci commit
+- git config --global alias.br branch
+- git config --global alias.unstage 'reset HEAD'
+- git config --global alias.last 'log -1'
+- git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
