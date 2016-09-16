@@ -110,11 +110,11 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 	  git remote set-url origin git@github.com:shihunguilai/learngit.git
     git pull  origin master
     git push  origin master
-
+s
 ---
 ## 7.分支管理
 - 创建分支
-`git branch dev`ss
+`git branch dev`
 - 切换分支
 `git checkout dev`
 - 创建并且切换分支
