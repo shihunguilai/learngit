@@ -112,10 +112,11 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
     git push  origin master
 ---
 ## 7.分支管理
+- 查看分支 `git branch`
 - 创建分支`git branch dev`
 - 切换分支`git checkout dev`
 - 创建并且切换分支`git checkout -b dev`
-
+- 删除分支 `git branch -d dev`
 
 
 
