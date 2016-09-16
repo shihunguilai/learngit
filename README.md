@@ -1,4 +1,4 @@
-# 1learngit
+# learngit
 
 - [安装git](./git.md#1安装git)
 - [git的设置](./git.md#2git的设置)
