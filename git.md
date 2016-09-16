@@ -142,3 +142,17 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 - git config --global alias.unstage 'reset HEAD'
 - git config --global alias.last 'log -1'
 - git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
+
+## 9.git标签
+- 创建标签
+ - 新建一个标签，默认为HEAD  `git tag v1.0`,也可以是一个commit——id　
+ - 查看所有标签 git tag
+ - 查看tag信息：git show v1.0
+ - git tag -a <tagname> -m "描述信息..."可以指定标签信息；
+- 操作标签
+ - 删除本地的tag git tag -d tagname
+ - 推送一个本地标签到远程 `git push origin <tagname>`
+ - 推送所有tag到远程 `git push origin --tags`
+ - 删除一个远程标签  `git push origin  :refs/tags/<tagname>`
