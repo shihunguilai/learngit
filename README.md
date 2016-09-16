@@ -1,5 +1,6 @@
 # 1.learngit
-
+学习参考：
+[http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [安装git](./git.md#1安装git)
 - [git的设置](./git.md#2git的设置)
 - [在本地建立仓库](./git.md#3在本地建立仓库)
@@ -10,3 +11,6 @@
   - [删除文件](./git.md#删除文件)
 - [远程仓库](./git.md#5远程仓库)
 - [关联本地仓库](./git.md#6关联本地仓库)
+- [分支管理](./git.md#7分支管理)
+- [创建git别名](./git.md#8创建git别名)
+- [git标签](/git.md#9git标签)
