@@ -46,37 +46,39 @@ git log --pretty=oneline #一行显示
 
 ### 版本回退
 
-head表示当前版本
-head^表示上一个版本
-head^^表示上两个版本
-head~100表示当前往上100个版本
+- head表示当前版本
+- head^表示上一个版本
+- head^^表示上两个版本
+- head~100表示当前往上100个版本
 
-用git log查看提交历史，以便会退到某个版本
+- 用git log查看提交历史，以便会退到某个版本
 
-用git reflog查看命令历史，可以回到未来的哪个版本
+- 用git reflog查看命令历史，可以回到未来的哪个版本
 
-重置到某一个版本
-git reset --hard commit_id
+- 重置到某一个版本
 
-查看工作区和版本库里最新版的区别：
-git diff HEAD -- readme.txt
+> `git reset --hard commit_id`
+
+- 查看工作区和版本库里最新版的区别：
+
+> `git diff HEAD -- readme.txt`
 
 
 ### 管理修改
-git管理的是修改，不是文件
-git add file  #把工作区文件修改提交到暂存区stage
-git commit -m 'commit desc word' #把暂存区修改提交到分支上
+- git管理的是修改，不是文件
+- git add file  #把工作区文件修改提交到暂存区stage
+- git commit -m 'commit desc word' #把暂存区修改提交到分支上
 
 
 
 
 ### 撤销修改
 修改了工作区的文件内容，没有添加到暂存区，想直接丢掉修改
-git checkout -- filename
+- `git checkout -- filename`
 
 修改了工作区的文件内容，并且添加到了 暂存区，想丢掉修改，要2步
-git reset head file  #撤掉暂存区修改到工作区
-git checkout -- file #撤掉工作去修改
+- git reset head file  #撤掉暂存区修改到工作区
+- git checkout -- file #撤掉工作去修改
 
 
 ### 删除文件
