@@ -1,17 +1,17 @@
-#git的使用
+# git的使用
 [toc]
-##1.安装git
+## 1.安装git
 `sudo apt install git`
 
-##2.git的设置
-```shell
+## 2.git的设置
+```
 git config --global user.name "your name"
 git config --global user.email "your email"
 git config --list
 ```
 
-##3.在本地建立仓库
-```shell
+## 3.在本地建立仓库
+```
 mkdir learngit
 cd learngit
 git init
@@ -42,9 +42,9 @@ git log --pretty=oneline #一行显示
 
 ```
 
-##4.git版本重置、回退
+## 4.git版本重置、回退
 
-###版本回退
+### 版本回退
 
 head表示当前版本
 head^表示上一个版本
@@ -62,7 +62,7 @@ git reset --hard commit_id
 git diff HEAD -- readme.txt
 
 
-###管理修改
+### 管理修改
 git管理的是修改，不是文件
 git add file  #把工作区文件修改提交到暂存区stage
 git commit -m 'commit desc word' #把暂存区修改提交到分支上
@@ -70,7 +70,7 @@ git commit -m 'commit desc word' #把暂存区修改提交到分支上
 
 
 
-###撤销修改
+### 撤销修改
 修改了工作区的文件内容，没有添加到暂存区，想直接丢掉修改
 git checkout -- filename
 
@@ -79,14 +79,14 @@ git reset head file  #撤掉暂存区修改到工作区
 git checkout -- file #撤掉工作去修改
 
 
-###删除文件
+### 删除文件
 在工作去新建test.txt文件
-```shell
+```
 touch test.txt
 git add .
 git commit -m "sth."
 ```
-要删除版本库中的文件 
+要删除版本库中的文件
 git rm/add test.txt
 git commit -m "remove sth."
 
@@ -95,7 +95,7 @@ git checkout -- test.txt
 
 git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”
 
-##5.远程仓库
+## 5.远程仓库
 
 - 创建ssh key	`ssh-keygen -t rsa -C "your email@xx.com"`
 - 把 ~/.ssh/id_rsa.puh 文件的内容 添加到 github 上面的 add ssh key
@@ -103,20 +103,19 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 
 - 在github上建立learngit仓库
 
-##6.关联本地仓库
+## 6.关联本地仓库
 
-    git remote add  origin  git@github.com:shihunguilai/learngit.git
-	git remote set-url origin git@github.com:shihunguilai/learngit.git
-    git pull  origin master 
+    git remote add  origin
+    git@github.com:shihunguilai/learngit.git
+	  git remote set-url origin git@github.com:shihunguilai/learngit.git
+    git pull  origin master
     git push  origin master
 
-	
-
-
-
-
-
-
-
-
-
+---
+## 7.分支管理
+- 创建分支
+`git branch dev`
+- 切换分支
+`git checkout dev`
+- 创建并且切换分支
+`git checkout -b dev`
