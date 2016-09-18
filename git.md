@@ -106,12 +106,13 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 - 在github上建立learngit仓库
 
 ## 6.关联本地仓库
+```
+git remote add  origin    git@github.com:shihunguilai/learngit.git
+git remote set-url origin git@github.com:shihunguilai/learngit.git
+git pull  origin master
+git push  origin master
 
-    git remote add  origin
-    git@github.com:shihunguilai/learngit.git
-	  git remote set-url origin git@github.com:shihunguilai/learngit.git
-    git pull  origin master
-    git push  origin master
+```
 ---
 ## 7.分支管理
 - 查看分支 `git branch`
