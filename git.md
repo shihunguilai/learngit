@@ -156,4 +156,4 @@ git push  origin master
  - 删除本地的tag git tag -d tagname
  - 推送一个本地标签到远程 `git push origin <tagname>`
  - 推送所有tag到远程 `git push origin --tags`
- - 删除一个远程标签  `git push origin  :refs/tags/<tagname>`
+ - 删除一个远程标 签  `git push origin  :refs/tags/<tagname>`
