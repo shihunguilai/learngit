@@ -1,6 +1,10 @@
-# 1.learngit
-学习参考：
-[http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
+# 学习参考：
+>- [http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [git工作流的最佳实践](http://www.jianshu.com/p/202de00f267f?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+- [git中8个搞笑命令总结](http://www.jianshu.com/p/150ea9ac7b47?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+# learngit
 - [安装git](./git.md#1安装git)
 - [git的设置](./git.md#2git的设置)
 - [在本地建立仓库](./git.md#3在本地建立仓库)
