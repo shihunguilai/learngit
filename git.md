@@ -133,6 +133,7 @@ git push  origin master
 - 删除远程分支 `git push origin  :dev`
 - 建立本地分支和远程分支的关联`git branch --set-upstream-to=origin/<branch> dev`
 - 查看远程库信息，使用git remote -v；
+- 基于远程跟踪分支创建本地分支 ` git checkout --track -b refactored origin/refactored`, --track 在新版git中可以省略
 
 
 ## 8.创建git别名
