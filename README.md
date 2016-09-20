@@ -14,4 +14,4 @@
 - [分支管理](./git.md#7分支管理)
 - [创建git别名](./git.md#8创建git别名)
 - [git标签](/git.md#9git标签)
-- [git fetch /git merge](/git.md##10git-fetch-git-merge)
+- [git fetch /git merge](/git.md#10git-fetch-git-merge)
