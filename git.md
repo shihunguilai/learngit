@@ -133,6 +133,8 @@ git push  origin master
 - 删除远程分支 `git push origin  :dev`
 - 建立本地分支和远程分支的关联`git branch --set-upstream-to=origin/<branch> dev`
 - 查看远程库信息，使用git remote -v；
+- 基于远程跟踪分支创建本地分支 ` git checkout --track -b refactored origin/refactored`, --track 在新版git中可以省略
+- 查看本地2个分支的 `git diff branch1 branch2`
 
 
 ## 8.创建git别名
@@ -157,3 +159,10 @@ git push  origin master
  - 推送一个本地标签到远程 `git push origin <tagname>`
  - 推送所有tag到远程 `git push origin --tags`
  - 删除一个远程标 签  `git push origin  :refs/tags/<tagname>`
+
+## 10.git fetch /git merge
+> 不要用git pull，用git fetch和git merge代替它
+
+- 从远端的源仓库更新到本地的代码仓库 `git fetch origin `
+- 看看本地分支和远程分支的差异 `git diff master origin/master`
+- 合并到本地分支 `git checkout master ; git merge origin/master`
