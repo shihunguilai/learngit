@@ -7,6 +7,7 @@
 ```
 git config --global user.name "your name"
 git config --global user.email "your email"
+git config core.ignorecase false  #git 使其对文件名大小写敏感
 git config --list
 ```
 
