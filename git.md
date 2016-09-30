@@ -1,5 +1,23 @@
 # git的使用
-[toc]
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [git的使用](#git的使用)
+	- [1.安装git](#1安装git)
+	- [2.git的设置](#2git的设置)
+	- [3.在本地建立仓库](#3在本地建立仓库)
+	- [4.git版本重置、回退](#4git版本重置回退)
+		- [版本回退](#版本回退)
+		- [管理修改](#管理修改)
+		- [撤销修改](#撤销修改)
+		- [删除文件](#删除文件)
+	- [5.远程仓库](#5远程仓库)
+	- [6.关联本地仓库](#6关联本地仓库)
+	- [7.分支管理](#7分支管理)
+	- [8.创建git别名](#8创建git别名)
+	- [9.git标签](#9git标签)
+	- [10.git fetch /git merge](#10git-fetch-git-merge)
+
+<!-- /TOC -->
 ## 1.安装git
 `sudo apt install git`
 
